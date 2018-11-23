@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+html,
+body{
+    height: 100%;
+}
+header{
+
+    background:url(../img/background.jpg);
+    background-size: cover;
+    border-top:10px solid #2ecc71;
+    height: 100%;
+
+    .flex{
+
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+
+.wrapper{
+
+   margin: 0 auto;
+   padding-right: 350px;
+   max-width: 1175px;
+}
+
+.white__wrapper{
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+.header__list{
+
+    padding-top:30px; 
+    
+}
+
+.flex__block{
+
+    display: flex;
+    width:100%;
+
+    &--item{
+
+        video{
+
+            border-radius: 16px;
+            margin: 15px 0;
+
+        }
+    }
+
+}
+
+.features{
+
+    .flex__block--item{
+
+    width:33.3333333333%;
+    text-align: center;
+    padding:55px 0 55px 0;
+
+    }
+
+}
+
+.notify__video{
+
+    background:#e4e4e4;
+    overflow: hidden;
+    .flex__block--item{
+
+        display: inline-flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+
+.notify {
+
+    display:inline-flex;
+    margin-top:20px;
+
+    input{
+        font-size: 24px;
+        width: 250px;
+        height:50px;
+        border:1px solid #cccccc;
+        border-radius: 20px 0 0 20px;
+        outline: 0;
+        outline-offset: 0;
+        padding: 0 25px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        &:hover{
+
+            box-shadow: 0 0 45px rgb(80, 80, 80);
+
+        }
+    }
+
+    button{
+
+        background: #2ecc71;
+        border: 1px solid #2ecc71;
+        height:50px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left:-5px;
+        padding:0 35px;
+        border-radius: 0 20px 20px 0;
+
+        &:hover{
+
+            box-shadow: 0 0 45px rgb(80, 80, 80);
+
+        }
+
+    }
+
+}
+
+.white{
+
+    display: block;
+    width:100%;
+    height:450px;
+    background: white;
+    text-align: center;
+
+    .list__item{
+        background: #cccccc;
+        width:30px;
+        height:30px;
+        margin-right: 5px;
+
+        &:hover{
+
+            background:#2ecc71;
+            cursor: pointer;
+
+        }
+
+    }
+
+}
+
+footer{
+    width: 100%;
+    background: #e4e4e4;
+    text-align: center;
+ }
+ 
+ .footer__list{
+     padding:60px 0 60px 0;
+
+     &--item{
+
+     }
+
+ }
+
+ .footer__list--item{
+
+    display: inline;
+    margin-right: 30px;
+    
+}
+
+
