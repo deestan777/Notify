@@ -278,6 +278,7 @@ header .flex {
 }
 .notify button {
   background: #2ecc71;
+  cursor: pointer;
   border: 1px solid #2ecc71;
   height: 50px;
   color: white;
